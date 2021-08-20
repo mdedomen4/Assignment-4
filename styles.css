@@ -1,0 +1,26 @@
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+body {
+	line-height: 175%;
+	font-family: Arial;
+	background-color: rgb(232 230 222);
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
